@@ -1,0 +1,19 @@
+{
+    "name": "test/logger",
+    "description": "PSR-3 Logger",
+    "autoload": {
+        "psr-4": {
+            "Test\\Logger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "skrasev",
+            "email": "skrasev@test.by"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "psr/log": "^1.1"
+    }
+}
